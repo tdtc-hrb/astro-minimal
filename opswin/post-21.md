@@ -7,7 +7,7 @@ author: xiaobin
 tags: ["faq2", "Microsoft Visual C++", "Clang"]
 ---
 - [Visual Studio 2019 16.7 or later](https://clang.llvm.org/get_started.html)
-- [Visual Studio 2017 及以上版本的在线下载](https://tdtc-hrb.github.io/ops-win/posts/post-6)
+- [Visual Studio 在线](https://tdtc-hrb.github.io/ops-win/posts/post-6)
 
 ### [Clang/LLVM support in Visual Studio](https://learn.microsoft.com/en-us/cpp/build/clang-support-msbuild)
 - C++ Clang tools for Windows
