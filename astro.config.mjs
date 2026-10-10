@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import relativeLinks from 'astro-relative-links';
 
 import tailwindcss from "@tailwindcss/vite";
 
@@ -13,6 +14,8 @@ export default defineConfig({
   base: "baseName",
 
   trailingSlash: 'ignore',
+
+  integrations: [relativeLinks()],
 
   vite: {
     plugins: [tailwindcss()],
